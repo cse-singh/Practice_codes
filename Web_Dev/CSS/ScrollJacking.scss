@@ -1,13 +1,16 @@
-/* This section is under testing right now 
-using scss the dollar sign variable issue now solved
+/* 
+using .scss extension
+ the dollar sign variable issue now solved
+ (VS code wasn't understanding what is '$sections' 
+ or any var
 alternatively could have replaced all occurences in css way
 i.e. "--varname"
 
 */
 
- /* section count */
+// section count 
 $sections: 4;
-/*// width of svgs
+// width of svgs
 $svg-w: 200px;
 // kind of like a throttle, increase to add more scrolling
 $section-height: 100vh;
@@ -158,4 +161,4 @@ h1 {
 p {
   line-height: 1.6;
   font-weight: 100;
-} */
+} 
