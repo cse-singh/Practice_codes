@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Image hidden toggle</title>
+<script type="text/javascript">
+        function addimage() { 
+          var img = document.createElement("img");
+          img.src = "https://images-na.ssl-images-amazon.com/images/I/71xvUwDYZoL._SX425_.jpg"; 
+          img.height = 150; 
+          img.width = 200;
+          img. = center;
+          //optionally set a css class on the image
+          // var class_name = "foo";
+          // img.setAttribute("class", class_name);
+
+          document.body.appendChild(img);
+          document.getElementById('button1').disabled = true;
+        }
+
+        function ChangeState(var b1) {
+          // body...
+          if(b1.hidden)
+            b1.setAttribute("hidden", "false");
+          else
+            b1.setAttribute("hidden", "true");
+        }
+
+        function setImageVisible(id) {
+        var img = document.getElementById(id);
+        img.hidden = 'false';
+}
+</script>
+</head>
+<body background="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.hellogiggles.com%2Fuploads%2F2016%2F07%2F27053104%2Fdarkmor.jpg&f=1">
+    <center>
+    <button id="button1" onclick="javascript:setImageVisible('TestPic')">Click</button> <br>
+    <img id="TestPic" onclick="javascript:getElementById('TestPic').style.svisibility = 'hidden" src="https://images-na.ssl-images-amazon.com/images/I/71xvUwDYZoL._SX425_.jpg"  />
+    </center>
+</body>
+</html>
+

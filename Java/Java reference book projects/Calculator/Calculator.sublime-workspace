@@ -1,0 +1,290 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dbl",
+				"dblNumber"
+			],
+			[
+				"dblN",
+				"dblNumber"
+			],
+			[
+				"type",
+				"typeInt"
+			],
+			[
+				"iS",
+				"iSecondNum"
+			],
+			[
+				"iF",
+				"iFirstNum"
+			],
+			[
+				"db",
+				"dblNumber"
+			],
+			[
+				"dou",
+				"Double"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"App",
+				"Applet"
+			],
+			[
+				"imp",
+				"import"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Calculate.java",
+			"settings":
+			{
+				"buffer_size": 1738,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/aaMY PD data/Programs/Java reference book projects/Calculator/iCalc.java",
+		"/G/aaMY PD data/Programs/Java reference book projects/Calculator/Calculator.sublime-project",
+		"/G/aaMY PD data/Programs/Java reference book projects/Calculator/Calculate.java",
+		"/G/aaMY PD data/Programs/ChessBoardApplet.java",
+		"/G/aaMY PD data/Programs/cart.ino",
+		"/G/aaMY PD data/Programs/applet.html",
+		"/G/aaMY PD data/Gits/Smart-Shopping-Basket-master/Smart-Shopping-Basket-master/Notes-for-project",
+		"/G/aaMY PD data/Gits/Smart-Shopping-Basket-master/Smart-Shopping-Basket-master/README",
+		"/G/aaPD Data/Follow_me_Cart/blynk.ino",
+		"/G/aaPD Data/Follow_me_Cart/Follow_me_Cart.ino",
+		"/G/anmol sd new 2_0 dump/krsdk-b801-stock-conf",
+		"/N/Programs/C/Cprogs/snake_game.c",
+		"/N/Programs/C/Cprogs/Display_Alphabets.c",
+		"/N/Programs/C/Cprogs/Char_or_not.c",
+		"/D/myTest.java",
+		"/E/HBCD/XP/X",
+		"/D/note.txt"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1",
+			"12",
+			"123",
+			"1234",
+			"12345",
+			"1234",
+			"terminal",
+			"blynk",
+			"BLUETOOTH",
+			"bluetoothSerial"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Calculate.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1704,
+								1704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 793.043478261,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 218.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "Calculator.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,12 @@
+Hello guys!!
+
+Myself Anmoldeep Singh,
+
+and in today's video,
+I am going to Introduce you to a simple and yet really powerfull concept in C programming
+
+i.e. Pointers
+
+
+So 
+What are Pointers?

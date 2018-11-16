@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Control Tags</title>
+	<style type="text/css">
+		body{
+			font-family: arial,sans-serif;
+		}
+
+		label{
+			float: left;
+			width: 150px;
+		}
+
+		input{
+			width: 200px;
+		}
+	</style>
+
+	<script>
+		function onSubmitDataAndTime() {
+
+			var myDateElem = document.getElementById('myDate');
+			alert("Date:" + myDateElem.value);
+
+			var myTimeElem = document.getElementById('myTime');
+			alert("Time:" + myTimeElem.value);
+
+			var myDateTimeElem = document.getElementById('myDateTime');
+			alert("Date and Time:" + myDateTimeElem.value);			
+
+			var myMonthElem = document.getElementById('myMonth');
+			alert("Month:" + myMonthElem.value);
+
+			var myWeekElem = document.getElementById('myWeek');
+			alert("Week:" + myWeekElem.value);
+			
+			return false;
+		}
+
+		function onSubmitMisc() {
+			
+			// body...
+			var myNumberElem = document.getElementById("myNumber");
+			alert("Ideal salary:" + myNumberElem.value);
+
+			var myRangeElem = document.getElementById('myRange');
+			alert("Current Range:" + myRangeElem.value);
+
+			var myTelElem = document.getElementById('myTel');
+			alert("Telephone:" + myTelElem.value);
+
+			var myEmailElem = document.getElementById('myEmail');
+			alert("Email:" + myEmailElem.value);
+
+			var myUrlElem = document.getElementById('myUrl');
+			alert("Url:" + myUrlElem.value);			
+
+			var myColorElem = document.getElementById('myColor');
+			alert("Color:" + myColorElem.value);
+
+			var mySearchElem = document.getElementById('mySearch');
+			alert("Search:" + mySearchElem.value);
+			
+
+			return false;
+		}
+	</script>
+</head>
+<body>
+<h1>Input Control Attributes</h1>
+
+<form onsubmit="return onSubmitDataAndTime()">
+	<label>Date:</label>
+	<input type="date" id="myDate" placeholder="Enter a Date" /> <br>
+	
+	<label>Time:</label>
+	<input type="time" id="myTime" placeholder="Enter a Time" /> <br>
+
+	<label>Date and Time:</label>
+	<input type="datetime" id="myDateTime" placeholder="Enter a Date and Time" /> <br>
+
+	<label>Month:</label>
+	<input type="month" id="myMonth" placeholder="Enter a Month" /> <br>
+
+	<label>Week:</label>
+	<input type="week" id="myWeek" placeholder="Enter a Week" /> <br>
+
+	<button type="button" onclick="return onSubmitDataAndTime()">Submit</button>
+
+
+
+</form>
+
+
+
+<form onsubmit="return onSubmitMisc()">
+	<label>Salary:</label>
+	<input type="number" id="myNumber" min="10000" max="50000" value="20000" step="10000" /> <br>
+
+	<label>Range:</label>
+	<input type="range" id="myRange" min="1" max="10" value="5" /> <br>
+
+	<label>Telephone no.:</label>
+	<input type="tel" id="myTel" placeholder="Enter a phone number" /> <br>
+
+	<label>Email Address:</label>
+	<input type="email" id="myEmail"  placeholder="Enter an Email Address" /> <br>
+
+	<label>URL:</label>
+	<input type="url" id="myUrl" placeholder="Enter a URL" /> <br>
+
+	<label>Favorite Color:</label>
+	<input type="color" id="myColor" placeholder="Choose a color" value="red" /> <br>
+
+	<label>Search string:</label>
+	<input type="search" id="mySearch" placeholder="Enter a Search string" results="3" autosave="mySearch" /> <br>
+
+	<!--<input type="file" id="myFile" /><br>-->
+	
+
+	<!-- <button type="button" onclick="return onSubmitMisc()">Submit</button>  -->
+	<button type="submit">Submit</button> 
+
+</form>
+</body>
+</html>

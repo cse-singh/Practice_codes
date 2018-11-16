@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing form tag</title>
+</head>
+<body>
+
+
+
+	<h2>Text Input</h2>
+
+<form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of a text input field is 20 characters.</p>
+
+<form action="javascript:alert('Hello ' + getElementById('myFName').value)">
+	<label>First Name:</label>
+	<input type="name" id="myFName" />
+
+	<label>Last Name:</label>
+	<input type="name" name="myLName" />
+
+	<button onclick="alert('Hello' + myFName.value)">Submit</button>
+	
+</form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+launch a local server using python 3
+
+code -
+
+python -m SimpleHTTPServer 8080
+
+
+
+if you have started the server with
+
+python -m SimpleHTTPServer 8888 
+
+then you can press ctrl + c to down the server.
+
+But if you have started the server with
+
+python -m SimpleHTTPServer 8888 &
+
+or
+
+python -m SimpleHTTPServer 8888 & disown
+
+you have to see the list first to kill the process,
+
+run command
+
+ps
+
+or
+
+ps aux | less
+
+it will show you some running process like this ..
+
+PID TTY          TIME CMD
+7247 pts/3     00:00:00 python
+7360 pts/3     00:00:00 ps
+23606 pts/3    00:00:00 bash
+
+you can get the PID from here. and kill that process by running this command..
+
+kill -9 7247
+
+here 7247 is the python id.
+
+Also for some reason if the port still open you can shut down the port with this command
+
+fuser -k 8888/tcp
+
+here 8888 is the tcp port opened by python.
+
+Hope its clear now.
+

@@ -1,0 +1,15 @@
+package car;
+
+public class Car {
+
+	int maxSpeed;
+	int minSpeed;
+	double weight;
+	boolean isTheCaron;
+	
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

