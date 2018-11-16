@@ -1,0 +1,61 @@
+<!-- This code is extracted and used from the location 
+https://codepen.io/jakealbaugh/pen/JYYENm?editors=0100#0
+and is my own self made code
+just for learning purpose is used
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body >
+    <link rel="stylesheet" type="text/css" href="..\\..\\CSS\\ScrollJacking.css">
+    <section id=s1>
+        <div>
+          <article>
+            <h1>Scroll Jacking with CSS</h1>
+            <p>Right now you are reading content inside of a fixed-position child of a relatively-positioned transparent area.</p>
+            <p>You are hovering over the transparent area (the white tint background) which is displaying this content. This fixed child content has a colored background image with a blend mode which appears to modify the original background image you saw before hover.</p>
+            <p>If you keep scrolling down you will see a line. If you hover beneath that line you will be hovering over the next section and it will make this content disappear.</p>
+          </article>
+        </div>
+      </section>
+      <section id=s2>
+        <div>
+          <article>
+            <h1>Changing Hover Areas</h1>
+            <p>You are now reading the second section's fixed content with a green background. This is because you are hovering over the second section (the white tint background).</p>
+            <p>If you didn't move your mouse and scrolled to get here, you may have noticed that the hover event doesn't fire until scrolling has completely stopped. This is default browser behavior.</p>
+            <p>This means you can quickly scroll to the bottom of the page and it will skip the sections along the way.</p>      
+          </article>
+        </div>
+      </section>
+      <section id=s3>
+        <div>
+          <article>
+            <h1>Why This is Awesome</h1>
+            <p>As you can see, the result is pretty amazing for not using any Javascript. This goes to show you that CSS can do some pretty crazy things.</p>
+          </article>
+        </div>
+      </section>
+      <section id=s4>
+        <div>
+          <article>
+            <h1>Why This Sucks</h1>
+            <p>First off, you cant select this text because the "hover" section areas are sitting on top of it. This is because we need to hover event to make this work.</p>
+            <p>Secondly, this pen is useless if you aren't hovering over it, so you cant use this on a tablet or phone. Relying on hover is a terrible idea.</p>
+          </article>
+        </div>
+      </section>
+      
+      <div class=default>
+        <h1>Hover if you know what's good for ya</h1>
+      </div>
+      
+      <div class=bg></div>
+</body>
+</html>
