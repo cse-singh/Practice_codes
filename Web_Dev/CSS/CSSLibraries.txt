@@ -1,0 +1,3 @@
+animation lib sources-
+
+https://daneden.github.io/animate.css/
