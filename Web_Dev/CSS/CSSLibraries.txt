@@ -1,3 +1,4 @@
 animation lib sources-
 
 https://daneden.github.io/animate.css/
+https://www.creativebloq.com/inspiration/css-animation-examples
