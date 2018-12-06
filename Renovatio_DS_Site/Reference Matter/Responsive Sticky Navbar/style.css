@@ -35,6 +35,13 @@ header {
       letter-spacing: 2px;
 }
 
+.logo img{
+      width: 15%;
+      height: 15%;
+  
+}
+  
+
 nav {
       position: fixed;
       width: 100%;
