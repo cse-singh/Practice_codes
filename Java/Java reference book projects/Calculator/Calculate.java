@@ -1,7 +1,7 @@
 package Calculator;
 
 // Defines the class
-class Calculate 
+class Calculate implements iCalc
 {
 	private char Operator;
 	private int iFNum, iSNum;
@@ -69,8 +69,24 @@ class Calculate
 				checkDouble();
 				dblResult = Math.cos(dblNumber);
 				break;
-			// case 
-
+			case 'T':
+			case 't':
+				checkDouble();
+				dblResult = Math.tan(dblNumber);
+				break;
+			case 'L':
+			case 'l':
+				checkDouble();
+				dblResult = Math.log(dblNumber);
+				break;
+			default:
+				iResult = 0;
+				dblResult = 0.0;
+				System.out.println(
+					"***Operation Not Available. \n"
+					"Please Select any of available options.***"
+					);
+				break;
 		}
 	}
 
@@ -79,9 +95,15 @@ class Calculate
 	{
 		if(typeInt)
 		{
-
+			System.out.println("The result is : " + iResult);
 		}
+		else if(typeInt)
+		{
+			System.out.println("The result is : " + dblResult);	
+		}
+
 	}
+
 
 	// Checks for zero
 	public boolean checkSecondNum()
@@ -94,5 +116,31 @@ class Calculate
 		}
 		else
 			return false;
+	}
+
+	public void checkInt()
+	{
+		if(!typeInt)
+		{
+			iResult = 0;
+			System.out.println(
+					"***Operation Not Available. \n"
+					"Please Select any of available options.***"
+					);
+			System.exit(0);
+		}
+	}
+
+	public void checkDouble()
+	{
+		if(!typeDouble)
+		{
+			dblResult = 0.0;
+			System.out.println(
+					"***Operation Not Available. \n"
+					"Please Select any of available options.***"
+					);
+			System.exit(0);			
+		}
 	}
 }
