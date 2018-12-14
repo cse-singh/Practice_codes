@@ -18,6 +18,7 @@ width = 400>
 */
 public class FontAnimation extends Applet implements ActionListener
 {
+    private static final long serialVersionUID = 1L;
     TextField text = new TextField(20);
     TextField red = new TextField(20);
     TextField gr = new TextField(20);
@@ -50,7 +51,7 @@ public class FontAnimation extends Applet implements ActionListener
 
     public void actionPerformed(ActionEvent e)
     {
-        if ((e.source)==b1) 
+        if ((e.getSource()) == b1) 
         {
             str = text.getText();
             if(str == "")
