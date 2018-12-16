@@ -29,19 +29,19 @@ public class FontAnimation extends Applet implements ActionListener
     Font f;
     boolean inc = true;
     int r, g, b;
-    Color fcolor;
-    
+    Color fColor;
+
     public void init()
     {
         add(new Label("Enter Text to animate here"));
         add(text);
-        blue.setText("0");
+        text.setText("Hello");
         add(new Label("Enter Value for Red Color here"));
         add(red);
-        blue.setText("0");
+        red.setText("0");
         add(new Label("Enter value for Green Color here"));
         add(gr);
-        blue.setText("0");
+        gr.setText("0");
         add(new Label("Enter value for Blue Color here"));
         add(blue);
         blue.setText("0");
@@ -51,7 +51,7 @@ public class FontAnimation extends Applet implements ActionListener
 
     public void actionPerformed(ActionEvent e)
     {
-        if ((e.getSource()) == b1) 
+        if ((e.getSource()) == b1)
         {
             str = text.getText();
             if(str == "")
@@ -59,26 +59,26 @@ public class FontAnimation extends Applet implements ActionListener
             r = Integer.parseInt(red.getText());
             g = Integer.parseInt(gr.getText());
             b = Integer.parseInt(blue.getText());
-            fcolor = new Color(r, g, b);
+            fColor = new Color(r, g, b);
             repaint();
         }
     }
 
     public void paint(Graphics g)
     {
-        f = new Font("Arial", Font.Bold, size);
+        f = new Font("Arial", Font.BOLD, size);
         g.setColor(fColor);
         g.setFont(f);
-        g.drawString(str, 50, 200);
+        g.drawString(str, 50, 280);
 
         try
         {
             Thread.sleep(500);
         }
-        catch (Exception e) 
+        catch (Exception e)
         {
             //TODO: handle exception
-            System.out.println(e.getMessage);
+            System.out.println(e.getMessage());
         }
 
         if (inc == true) {
