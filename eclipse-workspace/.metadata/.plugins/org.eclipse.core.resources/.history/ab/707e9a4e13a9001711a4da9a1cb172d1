@@ -1,0 +1,16 @@
+package car;
+
+public class Car {
+
+	int maxSpeed = 100;
+	int minSpeed = 0;
+	double weight = 4079;
+	boolean isTheCaron;
+	char condition;
+	
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

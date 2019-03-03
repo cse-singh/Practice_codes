@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package exp2;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class ButtonDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

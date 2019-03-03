@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package exp9;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class MyMouseMotionAdapter extends MouseMotionAdapter{
+	
+	AdapterDemo adapterDemo;
+	
+	public MyMouseMotionAdapter() {
+		// TODO Auto-generated constructor stub
+		this.adapterDemo = adapterDemo;
+	}
+}

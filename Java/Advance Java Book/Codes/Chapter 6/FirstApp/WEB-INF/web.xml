@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+<servlet>
+        <servlet-name>FirstServlet</servlet-name>
+        <servlet-class>com.kogent.FirstServlet</servlet-class>
+        <init-param>
+            <param-name>greeting</param-name>
+            <param-value>Welcome</param-value>
+        </init-param>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/FirstServlet</url-pattern>
+	<url-pattern>/FServlet</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>ShowParameters</servlet-name>
+        <servlet-class>com.kogent.ShowParameters</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>ShowParameters</servlet-name>
+        <url-pattern>/ShowParameters</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ShowHeaders</servlet-name>
+        <servlet-class>com.kogent.ShowHeaders</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>ShowHeaders</servlet-name>
+        <url-pattern>/ShowHeaders</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>ShowForm</servlet-name>
+        <servlet-class>com.kogent.ShowForm</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>ShowForm</servlet-name>
+        <url-pattern>/ShowForm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>Link</servlet-name>
+        <servlet-class>com.kogent.Link</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>Link</servlet-name>
+        <url-pattern>/Link</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>Servlet2Servlet2</servlet-name>
+        <servlet-class>com.kogent.Servlet2Servlet2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>Servlet2Servlet2</servlet-name>
+        <url-pattern>/Servlet2Servlet2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>Servlet2Servlet</servlet-name>
+        <servlet-class>com.kogent.Servlet2Servlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>Servlet2Servlet</servlet-name>
+        <url-pattern>/Servlet2Servlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>PizzaInventoryProducer</servlet-name>
+        <servlet-class>com.kogent.PizzaInventoryProducer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>PizzaInventoryProducer</servlet-name>
+        <url-pattern>/PizzaInventoryProducer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>PizzaInventoryConsumer</servlet-name>
+        <servlet-class>com.kogent.PizzaInventoryConsumer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>PizzaInventoryConsumer</servlet-name>
+        <url-pattern>/PizzaInventoryConsumer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>PizzaInventoryServlet</servlet-name>
+        <servlet-class>com.kogent.PizzaInventoryServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>PizzaInventoryServlet</servlet-name>
+        <url-pattern>/PizzaInventoryServlet</url-pattern>
+</servlet-mapping>
+
+   
+
+
+<session-config>
+	<session-timeout>30</session-timeout>
+</session-config>
+
+
+</web-app>

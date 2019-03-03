@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package exp3;
+
+import java.applet.*;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class SwingDemo extends JApplet{
+
+	
+}

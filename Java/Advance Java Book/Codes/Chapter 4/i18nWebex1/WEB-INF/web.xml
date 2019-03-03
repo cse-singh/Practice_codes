@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<servlet-name>i18n</servlet-name>
+		<servlet-class>com.kogent.servlets.I18NServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>i18n</servlet-name>
+		<url-pattern>/testser</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>  
+</web-app>

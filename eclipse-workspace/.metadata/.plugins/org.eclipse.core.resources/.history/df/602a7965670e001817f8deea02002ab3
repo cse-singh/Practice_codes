@@ -1,0 +1,39 @@
+package com.anmol.genericTable;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		HashTable<String,Integer> hashTable = new HashTable<>();
+		
+		hashTable.put("a", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("b", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("c", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("d", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("e", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("f", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("g", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("h", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("i", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("j", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("k", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("l", 1);
+		System.out.println(hashTable.size());
+	
+		hashTable.put("m", 1);
+		System.out.println(hashTable.size());
+		hashTable.put("n", 1);
+		System.out.println(hashTable.size());
+	}
+}

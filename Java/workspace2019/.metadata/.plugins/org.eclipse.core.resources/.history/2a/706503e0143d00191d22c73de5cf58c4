@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package exp5;
+
+import java.applet.*;
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.tree.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class JTreeEvents extends JApplet{
+
+	JTree tree;
+	JTextField jtf;
+	
+	@Override
+	public void init() {
+		// TODO Auto-generated method stub
+		// Get Content Pane
+		Container contentPane = getContentPane();
+		contentPane.setLayout(new BorderLayout());
+		
+		DefaultMutableTreeNode top = new DefaultMutableTreeNode("Options");
+		DefaultMutableTreeNode a = new DefaultMutableTreeNode("A");
+		top.add(a);
+		DefaultMutableTreeNode a1 = new DefaultMutableTreeNode("A1");
+		a.add(a1);
+		DefaultMutableTreeNode a2 = new DefaultMutableTreeNode("A2");
+		a.add(a2);
+		DefaultMutableTreeNode b = new DefaultMutableTreeNode("B");
+	}
+}

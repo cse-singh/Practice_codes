@@ -1,0 +1,10 @@
+package car;
+
+public class Car {
+
+	int maxSpeed;
+	int minSpeed;
+	double weight;
+	
+	
+}

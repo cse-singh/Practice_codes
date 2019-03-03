@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package exp1;
+
+import java.awt.*;
+import java.applet.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class CompDemo {
+
+//	Declaring AWT Components
+	TextField txtField;
+	TextArea txtArea;
+	Button bttn;
+	Label name;
+	Label about;
+	
+//	Applet's init method
+	preivate void init() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

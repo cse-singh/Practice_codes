@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package exp9;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class MyMouseMotionAdapter {
+
+}

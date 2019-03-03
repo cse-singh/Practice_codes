@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package exp4;
+
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class JScrollPaneDemo extends JApplet{
+
+	public void init()
+	{
+		Container c = getContentPane();
+		
+		c.setLayout(new BorderLayout());
+		
+		JPanel jp = new JPanel();
+		jp.setLayout(new GridLayout(10, 10));
+		
+	}
+}

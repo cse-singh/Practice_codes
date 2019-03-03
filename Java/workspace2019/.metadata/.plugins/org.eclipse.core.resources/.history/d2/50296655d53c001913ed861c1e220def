@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package exp1;
+
+import java.awt.*;
+import java.applet.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class CheckBoxDemo extends Applet{
+	@Override
+	public void init() {
+		// TODO Auto-generated method stub
+		
+	}
+}

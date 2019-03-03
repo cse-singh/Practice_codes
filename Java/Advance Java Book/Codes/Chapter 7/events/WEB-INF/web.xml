@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+<listener>
+       <listener-class>com.kogent.listeners.ContextListener</listener-class>
+</listener>
+
+<listener>
+       <listener-class>com.kogent.listeners.ServletContextAttribListener</listener-class>
+</listener>
+
+<listener>
+       <listener-class>com.kogent.listeners.SessionListener</listener-class>
+</listener>
+
+
+<servlet>
+    	<servlet-name>DemoServlet</servlet-name>
+    	<servlet-class>com.kogent.servlets.DemoServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    	<servlet-name>DemoServlet</servlet-name>
+    	<url-pattern>/DemoServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    	<servlet-name>ServletContextAttrib</servlet-name>
+    	<servlet-class>com.kogent.servlets.ServletContextAttrib</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    	<servlet-name>ServletContextAttrib</servlet-name>
+    	<url-pattern>/servletcontextattrib</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    	<servlet-name>sessioncreate</servlet-name>
+    	<servlet-class>com.kogent.servlets.SessionCreateServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    	<servlet-name>sessioncreate</servlet-name>
+    	<url-pattern>/mysessioncreate</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    	<servlet-name>sessiondestroy</servlet-name>
+    	<servlet-class>com.kogent.servlets.SessionDestroyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    	<servlet-name>sessiondestroy</servlet-name>
+    	<url-pattern>/mysessiondestroy</url-pattern>
+</servlet-mapping>
+
+
+<session-config>
+	<session-timeout>30</session-timeout>
+</session-config>
+
+<welcome-file-list>
+        <welcome-file>DemoServlet</welcome-file>
+</welcome-file-list>
+
+</web-app>

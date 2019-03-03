@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package exp1;
+
+import java.awt.*;
+import java.applet.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class CompDemo {
+
+//	Delaring AWT Components
+	TextField txtField;
+	TextArea txtArea;
+	
+	
+}

@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package exp2;
+
+import java.applet.*;
+import java.awt.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class Buttons {
+
+}

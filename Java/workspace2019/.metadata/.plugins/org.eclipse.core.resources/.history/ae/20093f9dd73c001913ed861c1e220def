@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package exp2;
+
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class AddNum extends Applet{
+
+}

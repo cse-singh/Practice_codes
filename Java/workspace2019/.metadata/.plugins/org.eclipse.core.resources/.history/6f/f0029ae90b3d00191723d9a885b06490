@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package exp3;
+
+/**
+ * @author Anmoldeep
+ *
+ */
+public class MenuDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

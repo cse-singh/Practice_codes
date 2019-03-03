@@ -1,0 +1,4 @@
+grant codeBase "file:/C:/code/Chapter4/DemoWorld/" 
+{
+    permission javsecurity.AllPermission;
+};
