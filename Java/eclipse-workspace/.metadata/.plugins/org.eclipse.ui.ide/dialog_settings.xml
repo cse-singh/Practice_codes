@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="G:\aaGit\Practice_codes\Java\eclipse-workspace"/>
 		<item value="C:\Users\acous\Documents\NetBeansProjects\DataStructures"/>
 	</list>
 	<section name="CleanDialogSettings">
@@ -9,5 +10,17 @@
 		<item value="402" key="DIALOG_HEIGHT"/>
 		<item value="359" key="DIALOG_X_ORIGIN"/>
 		<item value="132" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="G:\aaGit\Practice_codes\Java\workspace2019"/>
+			<item value="G:\aaGit\Practice_codes\Java\eclipse-workspace"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
 	</section>
 </section>
