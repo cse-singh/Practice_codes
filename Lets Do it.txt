@@ -1,0 +1,26 @@
+
+
+nfc project estimate
+
+2 hour daily study
+
+ghidra simple game - 
+*One person will make a program 
+*make executable
+*pass file to another to crack it
+
+*other fellows will feed this to ghidra 
+*try to break the logic of program 
+*give proper algo for the same
+*break it faster to win
+* if anyone breaks it the maker loses at the moment
+
+
+whos online java app-
+*have a gui to interact
+*tracks predermined users
+*shows whos online and whos not
+*should be implemented as a thread and service
+*should need a passphrase to show which user is online
+-otherwise just show count of them
+*should have a config panel for personalizing the process
