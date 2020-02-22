@@ -11,6 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('/js/app.js') }}" defer></script>
+    
    
 
     <!-- Fonts -->
@@ -25,6 +26,7 @@
     <div id="app">
         @include('inc.navbar')
         <main class="container py-4">
+            @include('inc.messages')
             @yield('content')
         </main>
     </div>

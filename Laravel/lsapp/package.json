@@ -23,7 +23,9 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^16.0.0",
         "bootstrap-sass": "^3.4.1",
+        "ckeditor5": "^16.0.0",
         "jquery": "^3.4.1",
         "popper.js": "^1.16.1",
         "vue": "^2.6.11"
